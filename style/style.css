@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+header {
+    /* background-color: #FF914D; */
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px #111;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+nav img{
+
+    margin-top: 10px;
+    height: 50px;
+}
+
+main {
+    background: url("file:///C:/Users/Pichau/Desktop/Site%20Final/midia/cafe_banner.png");
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 0px 3px #111;
+}
+
+
+main h1{
+    margin-top: 330px;
+    margin-left: 100px; 
+    font-size: 2vw;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li a{
+    margin-left: 32px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 1.3vw;
+}
+
+.nav-list a:hover {
+    /* background-color: white; */
+    color: #FF914D;
+    transition: 0.3s;
+}
+
+#sobre-nos h1{
+    padding-top: 30px;
+    margin-left: 45vw;
+}
+
+#sobre-nos p{
+    margin-top: 10px;
+    margin-left: 20vw;
+}
+
+.sobre-nos-midia {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre-nos-midia img{
+    width: 30vw;
+    height: 30vh;
+    border: #FF914D solid 1px;
+    box-shadow: 0px 0px 3px #111;
+}
+
+#nosso-cafe h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 44vw;
+}
+#nosso-cafe p{
+    margin-top: 10px;
+    margin-left: 20vw;
+}
