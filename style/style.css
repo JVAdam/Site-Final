@@ -10,23 +10,202 @@ a {
 }
 
 header {
-    /* background-color: #FF914D; */
     background-color: #FFF;
     box-shadow: 0px 0px 3px #111;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+
+main {
+    height: 100vh;
+    box-shadow: 0px 0px 3px #111;
+}
+
+
+main h1{
+    margin-top: 270px;
+    margin-left: 110px; 
+    font-size: 4.5vw;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 4vw;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-list li a{
+    margin-left: 32px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 2.2vw;
+}
+
+#sobre-nos h1{
+    padding-top: 30px;
+    margin-left: 39vw;
+}
+
+#sobre-nos p{
+    margin-top: 10px;
+    margin-left: 5vw;
+}
+
+.sobre-nos-midia, .sobre-nos-midia-grande {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sobre-nos-midia img{
+    width: 30vw;
+    height: 30vh;
+    border: #FF914D solid 1px;
+    box-shadow: 0px 0px 3px #111;
+}
+
+.sobre-nos-midia-grande img{
+    width: 50vw;
+    height: 35vw;
+    border: #FF914D solid 1px;
+    box-shadow: 0px 0px 3px #111;
+}
+
+#nosso-cafe h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 36vw;
+}
+#nosso-cafe p{
+    margin-top: 10px;
+    margin-left: 5vw;
+}
+
+.descricao {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.descricao h3{
+    padding-top: 10px;
+}
+
+.cardapio {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cardapio a{
+    color: rgb(83, 78, 78);
+    padding: 5px;
+    font-size: 3vw;
+}
+
+#contato h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 34vw;
+}
+
+.estados {
+    padding: 5px;
+}
+
+#contato p{
+    margin-top: 10px;
+    margin-left: 5vw;
+}
+
+#contato ul {
+    margin-left: 10vw;
+}
+
+footer {
+    background-color: #FF914D;
+    height: 25vh;
+    box-shadow: 0px 0px 3px #111;
+    
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacoes ul li {
+    list-style: none;
+    line-height: 25px;
+}
+
+.icons {
+    padding-top: 45px;
+}
+
+
+.icons img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.cafedosul {
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+}
+
+.cafedosul p {
+    color: rgb(78, 78, 78);
+}
+
+.cardapio2 {
+    padding-top: 20px;
+    font-size: 2.vw;
+    display: block;
+    text-align: center;
+}
+
+.cardapio2 h4 {
+    padding: 10px 10px;
+}
+
+.cardapio2 a {
+    font-size: 3vw;
+}
+
+.bg-dif {
+    background-color: #cfcccc;
+    box-shadow: 0px 0px 3px #111;
+}
+
+@media only screen and (min-width:920px){
+
+header {
+    /* background-color: #FF914D; */
+    background-color: #FFF;
+    box-shadow: 0px 0px 3px #111;
+}
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 8vh;
-}
-
-nav img{
-
-    margin-top: 10px;
-    height: 50px;
 }
 
 main {
@@ -63,7 +242,6 @@ main h1{
 }
 
 .nav-list a:hover {
-    /* background-color: white; */
     color: #FF914D;
     transition: 0.3s;
 }
@@ -131,6 +309,7 @@ main h1{
 
 .cardapio a{
     color: rgb(83, 78, 78);
+    font-size: 1.5vw;
 }
 
 .cardapio a:hover{
@@ -212,7 +391,13 @@ footer {
     padding: 10px 10px;
 }
 
+.cardapio2 a {
+    font-size: 1.5vw;
+}
+
 .bg-dif {
     background-color: #cfcccc;
     box-shadow: 0px 0px 3px #111;
+}
+
 }
