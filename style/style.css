@@ -53,6 +53,7 @@ main h1{
     list-style: none;
 }
 
+
 .nav-list li a{
     margin-left: 32px;
     letter-spacing: 1.5px;
@@ -67,6 +68,10 @@ main h1{
     transition: 0.3s;
 }
 
+#sobre-nos{
+    /* background-color: rgb(192, 187, 187); */
+}
+
 #sobre-nos h1{
     padding-top: 30px;
     margin-left: 45vw;
@@ -77,10 +82,11 @@ main h1{
     margin-left: 20vw;
 }
 
-.sobre-nos-midia {
+.sobre-nos-midia, .sobre-nos-midia-grande {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .sobre-nos-midia img{
@@ -90,6 +96,14 @@ main h1{
     box-shadow: 0px 0px 3px #111;
 }
 
+.sobre-nos-midia-grande img{
+    width: 50vw;
+    height: 35vw;
+    border: #FF914D solid 1px;
+    box-shadow: 0px 0px 3px #111;
+}
+
+
 #nosso-cafe h1{
     margin-top: 0px;
     padding-top: 30px;
@@ -98,4 +112,107 @@ main h1{
 #nosso-cafe p{
     margin-top: 10px;
     margin-left: 20vw;
+}
+
+.descricao {
+   text-align: center;
+}
+
+.descricao h3{
+    padding-top: 10px;
+}
+
+.cardapio {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cardapio a{
+    color: rgb(83, 78, 78);
+}
+
+.cardapio a:hover{
+    color: #000;
+    transition: 0.5s;
+}
+
+#contato h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 41.5vw;
+}
+
+.estados {
+    padding: 5px;
+}
+
+#contato p{
+    margin-top: 10px;
+    margin-left: 20vw;
+}
+
+#contato ul {
+    margin-left: 20vw;
+}
+
+footer {
+    background-color: #FF914D;
+    height: 20vh;
+    box-shadow: 0px 0px 3px #111;
+    
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacoes ul li {
+    list-style: none;
+    line-height: 25px;
+}
+
+.icons {
+    padding-top: 45px;
+}
+
+
+.icons img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.icons img:hover{
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.cafedosul {
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+}
+
+.cafedosul p {
+    color: rgb(78, 78, 78);
+}
+
+.cardapio2 {
+    padding-top: 20px;
+    font-size: 1.4vw;
+    display: block;
+    text-align: center;
+}
+
+.cardapio2 h4 {
+    padding: 10px 10px;
+}
+
+.bg-dif {
+    background-color: #cfcccc;
+    box-shadow: 0px 0px 3px #111;
 }
